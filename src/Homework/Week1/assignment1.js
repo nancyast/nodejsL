@@ -38,7 +38,7 @@ const countByKey = (array, key) => {
   }, {});
 };
 
-const result = countByKey(students, 'name');
+const result = countByKey(students, 'gender');
 console.log('result ', result);
 
 // 2. Using ES6, convert the students array to new array with just the names.
